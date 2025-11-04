@@ -47,7 +47,10 @@ The system uses three different models for comprehensive phishing detection:
 3. Content Analysis Model
    - Analyzes webpage content and behavior
    - Located at: Models/phishing_page_content_analysis.pkl
-
+     
+4. Visual Analysis Model
+   - Analyzes screenshot of website
+   - Located at: Models/phishing_detector_screenshots.pkl
 ## Troubleshooting
 
 1. If you see XGBoost warnings about serialized models, these can be safely ignored.
